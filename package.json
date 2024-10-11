@@ -1,0 +1,29 @@
+{
+  "name": "final-project-sanber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliyahuyy/final-project-sanber.git"
+  },
+  "author": "alya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliyahuyy/final-project-sanber/issues"
+  },
+  "homepage": "https://github.com/aliyahuyy/final-project-sanber#readme",
+  "dependencies": {
+    "@wdio/cli": "^9.1.5",
+    "chromedriver": "^129.0.4",
+    "webdriverio": "^9.1.5"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^9.1.5",
+    "@wdio/mocha-framework": "^9.1.3"
+  }
+}
